@@ -919,113 +919,113 @@ namespace uavs
 
         }
 
-        private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (serial1_open_flag)
-            {
-                if (e.KeyValue == 38)          //w
-                {
-                    UInt16 pitch = 1, roll = 0,
-                           yaw = 0, thr = 0;
-                    byte[] se = new byte[21];
-                    se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
-                    se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
-                    se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
-                    se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
-                    se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
-                    for (int i = 12; i < 20; i++) se[i] = 0;
-                    se[20] = 0;
-                    for (int i = 0; i < 20; i++)
-                    {
-                        se[20] += se[i];
-                    }
-                    this.serialPort1.Write(se, 0, 21);
-                    this.richTextBox2.Text = "GoAhead";
+        //private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (serial1_open_flag)
+        //    {
+        //        if (e.KeyValue == 38)          //w
+        //        {
+        //            UInt16 pitch = 1, roll = 0,
+        //                   yaw = 0, thr = 0;
+        //            byte[] se = new byte[21];
+        //            se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
+        //            se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
+        //            se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
+        //            se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
+        //            se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
+        //            for (int i = 12; i < 20; i++) se[i] = 0;
+        //            se[20] = 0;
+        //            for (int i = 0; i < 20; i++)
+        //            {
+        //                se[20] += se[i];
+        //            }
+        //            this.serialPort1.Write(se, 0, 21);
+        //            this.richTextBox2.Text = "GoAhead";
 
-                }
-                if (e.KeyValue == 40)          //s
-                {
-                    UInt16 pitch = 2, roll = 0,
-                           yaw = 0, thr = 0;
-                    byte[] se = new byte[21];
-                    se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
-                    se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
-                    se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
-                    se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
-                    se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
-                    for (int i = 12; i < 20; i++) se[i] = 0;
-                    se[20] = 0;
-                    for (int i = 0; i < 20; i++)
-                    {
-                        se[20] += se[i];
-                    }
-                    this.serialPort1.Write(se, 0, 21);
-                    this.richTextBox2.Text = "GoBack";
-
-
-                }
-                if (e.KeyValue == 37)          //a
-                {
-                    UInt16 pitch = 3, roll = 0,
-                           yaw = 0, thr = 0;
-                    byte[] se = new byte[21];
-                    se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
-                    se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
-                    se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
-                    se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
-                    se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
-                    for (int i = 12; i < 20; i++) se[i] = 0;
-                    se[20] = 0;
-                    for (int i = 0; i < 20; i++)
-                    {
-                        se[20] += se[i];
-                    }
-                    this.serialPort1.Write(se, 0, 21);
-                    this.richTextBox2.Text = "TurnLeft";
+        //        }
+        //        if (e.KeyValue == 40)          //s
+        //        {
+        //            UInt16 pitch = 2, roll = 0,
+        //                   yaw = 0, thr = 0;
+        //            byte[] se = new byte[21];
+        //            se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
+        //            se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
+        //            se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
+        //            se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
+        //            se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
+        //            for (int i = 12; i < 20; i++) se[i] = 0;
+        //            se[20] = 0;
+        //            for (int i = 0; i < 20; i++)
+        //            {
+        //                se[20] += se[i];
+        //            }
+        //            this.serialPort1.Write(se, 0, 21);
+        //            this.richTextBox2.Text = "GoBack";
 
 
-                }
-                if (e.KeyValue ==39)          //d
-                {
-                    UInt16 pitch = 4, roll = 0,
-                           yaw = 0, thr = 0;
-                    byte[] se = new byte[21];
-                    se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
-                    se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
-                    se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
-                    se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
-                    se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
-                    for (int i = 12; i < 20; i++) se[i] = 0;
-                    se[20] = 0;
-                    for (int i = 0; i < 20; i++)
-                    {
-                        se[20] += se[i];
-                    }
-                    this.serialPort1.Write(se, 0, 21);
-                    this.richTextBox2.Text = "TurnRight";
-                }
-                if (e.KeyValue == ' ')          //space
-                {
-                    UInt16 pitch = 5, roll = 0,
-                           yaw = 0, thr = 0;
-                    byte[] se = new byte[21];
-                    se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
-                    se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
-                    se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
-                    se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
-                    se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
-                    for (int i = 12; i < 20; i++) se[i] = 0;
-                    se[20] = 0;
-                    for (int i = 0; i < 20; i++)
-                    {
-                        se[20] += se[i];
-                    }
-                    this.serialPort1.Write(se, 0, 21);
-                    this.richTextBox2.Text = "stop";
-                }
-            }
+        //        }
+        //        if (e.KeyValue == 37)          //a
+        //        {
+        //            UInt16 pitch = 3, roll = 0,
+        //                   yaw = 0, thr = 0;
+        //            byte[] se = new byte[21];
+        //            se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
+        //            se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
+        //            se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
+        //            se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
+        //            se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
+        //            for (int i = 12; i < 20; i++) se[i] = 0;
+        //            se[20] = 0;
+        //            for (int i = 0; i < 20; i++)
+        //            {
+        //                se[20] += se[i];
+        //            }
+        //            this.serialPort1.Write(se, 0, 21);
+        //            this.richTextBox2.Text = "TurnLeft";
 
-        }
+
+        //        }
+        //        if (e.KeyValue ==39)          //d
+        //        {
+        //            UInt16 pitch = 4, roll = 0,
+        //                   yaw = 0, thr = 0;
+        //            byte[] se = new byte[21];
+        //            se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
+        //            se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
+        //            se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
+        //            se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
+        //            se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
+        //            for (int i = 12; i < 20; i++) se[i] = 0;
+        //            se[20] = 0;
+        //            for (int i = 0; i < 20; i++)
+        //            {
+        //                se[20] += se[i];
+        //            }
+        //            this.serialPort1.Write(se, 0, 21);
+        //            this.richTextBox2.Text = "TurnRight";
+        //        }
+        //        if (e.KeyValue == ' ')          //space
+        //        {
+        //            UInt16 pitch = 5, roll = 0,
+        //                   yaw = 0, thr = 0;
+        //            byte[] se = new byte[21];
+        //            se[0] = 0xaa; se[1] = 0xaf; se[2] = 0x03; se[3] = 16;
+        //            se[4] = (byte)(thr >> 8); se[5] = (byte)(thr);
+        //            se[6] = (byte)(yaw >> 8); se[7] = (byte)(yaw);
+        //            se[8] = (byte)(roll >> 8); se[9] = (byte)(roll);
+        //            se[10] = (byte)(pitch >> 8); se[11] = (byte)(pitch);
+        //            for (int i = 12; i < 20; i++) se[i] = 0;
+        //            se[20] = 0;
+        //            for (int i = 0; i < 20; i++)
+        //            {
+        //                se[20] += se[i];
+        //            }
+        //            this.serialPort1.Write(se, 0, 21);
+        //            this.richTextBox2.Text = "stop";
+        //        }
+        //    }
+
+        //}
 
         private void yaw_TextChanged(object sender, EventArgs e)
         {

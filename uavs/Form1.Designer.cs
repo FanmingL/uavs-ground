@@ -114,8 +114,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -125,7 +123,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.tabPage7.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -515,7 +512,6 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Location = new System.Drawing.Point(24, 102);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tabControl1.Name = "tabControl1";
@@ -1079,27 +1075,6 @@
             this.label24.Size = new System.Drawing.Size(0, 18);
             this.label24.TabIndex = 28;
             // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage7.Controls.Add(this.richTextBox2);
-            this.tabPage7.Location = new System.Drawing.Point(4, 28);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1099, 776);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "BalanceCar";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Location = new System.Drawing.Point(95, 58);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(862, 632);
-            this.richTextBox2.TabIndex = 6;
-            this.richTextBox2.Text = "";
-            this.richTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox2_KeyDown);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -1154,7 +1129,6 @@
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.tabPage7.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1246,8 +1220,6 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 

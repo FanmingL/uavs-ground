@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uavs.exe" size="252928">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uavs.exe" size="250880">
       <assemblyIdentity name="uavs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9UAfY/We/715gbJZcC4JtjLVDdiLXT0f5HxFBQI15xM=</dsig:DigestValue>
+        <dsig:DigestValue>Z+Q2vpeVXanNsRWHhTJ7HnYUc08hiZ2mI0Efh7AtwpE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
