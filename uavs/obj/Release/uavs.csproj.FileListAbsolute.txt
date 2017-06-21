@@ -1,0 +1,8 @@
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Release\uavs.exe.config
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Release\uavs.exe
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Release\uavs.pdb
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Release\uavs.Form1.resources
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Release\uavs.Properties.Resources.resources
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Release\uavs.csproj.GenerateResource.Cache
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Release\uavs.exe
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Release\uavs.pdb

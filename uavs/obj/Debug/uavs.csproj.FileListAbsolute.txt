@@ -1,0 +1,33 @@
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Debug\uavs.exe.config
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Debug\uavs.exe
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\bin\Debug\uavs.pdb
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.Form1.resources
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.Properties.Resources.resources
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.csproj.GenerateResource.Cache
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.exe
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.pdb
+C:\Users\ErDou\Desktop\VS2015\uavs\uavs\obj\Debug\uavs.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\桌面\uavs\uavs\bin\Debug\uavs.exe.config
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.exe
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.pdb
+\\vmware-host\Shared Folders\桌面\uavs\uavs\bin\Debug\uavs.exe
+\\vmware-host\Shared Folders\桌面\uavs\uavs\bin\Debug\uavs.pdb
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.Form1.resources
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.Properties.Resources.resources
+\\vmware-host\Shared Folders\桌面\uavs\uavs\obj\Debug\uavs.csproj.GenerateResource.Cache
+C:\Users\erdou\Documents\uavs\uavs\bin\Debug\uavs.exe.config
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.exe
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.pdb
+C:\Users\erdou\Documents\uavs\uavs\bin\Debug\uavs.exe
+C:\Users\erdou\Documents\uavs\uavs\bin\Debug\uavs.pdb
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.Form1.resources
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.Properties.Resources.resources
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.csproj.GenerateResource.Cache
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.Form2.resources
+C:\Users\erdou\Documents\uavs\uavs\bin\Debug\uavs.exe.manifest
+C:\Users\erdou\Documents\uavs\uavs\bin\Debug\uavs.application
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.TrustInfo.xml
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.exe.manifest
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.application
+C:\Users\erdou\Documents\uavs\uavs\obj\Debug\uavs.csprojResolveAssemblyReference.cache
